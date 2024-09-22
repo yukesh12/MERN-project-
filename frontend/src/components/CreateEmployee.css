@@ -1,0 +1,53 @@
+
+.create-employee-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.create-employee-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.create-employee-container label {
+    font-weight: bold;
+}
+
+.create-employee-container input[type="text"],
+.create-employee-container input[type="email"],
+.create-employee-container select,
+.create-employee-container input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.create-employee-container input[type="radio"],
+.create-employee-container input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.create-employee-container .form-group {
+    margin-bottom: 15px;
+}
+
+.create-employee-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.create-employee-container button:hover {
+    background-color: #0056b3;
+}
